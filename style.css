@@ -7,9 +7,19 @@ header {
     background-color: #FFDBAA;
     grid-template-columns: 52.4% 44.5%;
     display:grid;
-    vertical-align:middle;
+    border:black;
+    border-style:outset;
+    border-width:1px;
 }
-
+body {
+    background-color:#D4A76A
+}
+button {
+    background-color:#805215;
+    color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
 header div {
     font-weight: bolder;
     color:#553100;
@@ -20,12 +30,8 @@ header div {
     letter-spacing: 1.5px;
 }
 nav button {
-    background-color: #805215;
-    color:#FFFFFF;
-    font-weight: bolder;
-    font-size: 100%;
+    font-size: 80%;
     font-family: helvetica;
-    vertical-align: middle;
     width: 17%;
     height: 60%;
     padding-bottom: 2%;
@@ -34,15 +40,51 @@ nav button {
     letter-spacing: 0px;
 }
 main {
-    background-color: #D4A76A;
     grid-template-rows: 45% 45%;
+    display:block;
 }
 main div {
     grid-template-columns: 33% 33% 33%;
+    display:grid;
+    margin: 6%;
+}
+article {
+    background-color: white;
+    text-align:center;
+    grid-template-rows: 20% 40% 40%;
+    font-size: 90%;
+}
+a {
+    text-align:left;
+    margin:5%;
 }
 div article {
-    background-color: white;
+    margin: 10%;
+    box-shadow: 0px 0px 10px;
+    align-items:center;
+    align-content:center;
 }
-#company-title {
-    align-content: center;
+footer article {
+    grid-template-rows: 20% 40% 40%;
+    display:block;
+    align-content:center;
+    align-items:center;
+    margin: 5%;
+    box-shadow: 0px 0px 10px;
+}
+article button {
+    width:90%;
+    height:40px;
+    margin-bottom:4%;
+    margin-top:1%;
+}
+h1 {
+    margin:3%;
+}
+h2 {
+    margin:1%;
+}
+#freakyboi {
+    margin-top:1%;
+    margin-bottom:1%;
 }
