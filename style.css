@@ -3,3 +3,46 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header {
+    background-color: #FFDBAA;
+    grid-template-columns: 52.4% 44.5%;
+    display:grid;
+    vertical-align:middle;
+}
+
+header div {
+    font-weight: bolder;
+    color:#553100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:4%;
+    margin-left:6%;
+    font-size: 180%;
+    letter-spacing: 1.5px;
+}
+nav button {
+    background-color: #805215;
+    color:#FFFFFF;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: helvetica;
+    vertical-align: middle;
+    width: 17%;
+    height: 60%;
+    padding-bottom: 2%;
+    border-width: 0px;
+    margin:3%;
+    letter-spacing: 0px;
+}
+main {
+    background-color: #D4A76A;
+    grid-template-rows: 45% 45%;
+}
+main div {
+    grid-template-columns: 33% 33% 33%;
+}
+div article {
+    background-color: white;
+}
+#company-title {
+    align-content: center;
+}
